@@ -1,0 +1,78 @@
+
+    #brief {
+        text-align: left;
+        padding-left: 80px;
+        padding-top: 30px;
+    }
+
+    #youtube {
+        text-align: left;
+        padding-top: 50px;
+        font-size: 2rem;
+    }
+    #youtubelink {
+        padding-top: 50px;
+    }
+    a:link {
+        color:darksalmon;
+        text-decoration: none;
+    }
+    #books {
+            text-align: left;
+            padding-top: 140px;
+            font-size: 2rem;
+    }
+
+    h1 {
+    padding-left: 140px;
+    padding-top: 130px;
+    padding-bottom: 70px;
+    text-transform: uppercase;
+    }
+
+    img {
+        border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 40px;
+border: 3px solid darksalmon;
+width: 130px; }
+
+#coded {
+    font-weight:lighter;
+    color:black;
+    font-size: 20px;
+    font-size: 10px;
+    text-align: right;
+    padding-left: 105px;
+    font-style:oblique;
+}
+#coded:hover {
+    color:#DA64B0;
+ }
+
+ form {
+    margin-left: 950px
+}
+#navbarSupportedContent {
+    padding-left: 20px;
+}
+#books1 {
+    padding-top: 30px;
+}
+
+#apps {
+   
+    text-align: left;
+    padding-top: 280px;
+    font-size: 2rem;
+}
+
+#applestore1 {
+    padding-top: 30px;
+}
+#navbarfixed {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+padding-bottom: 30px;
+}

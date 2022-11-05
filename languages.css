@@ -1,0 +1,57 @@
+body {
+    background-color:aliceblue;
+    font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+}
+h1 {
+    padding-left: 60px;
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+
+#languageResources {
+    font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+    padding: 60px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 10px 5px 5px rgba(78, 69, 69, 0.232);
+}
+#englishResources {
+    text-decoration: none;
+    color:gray;
+}
+#germanResources {
+    text-decoration: none;
+    color:gray;
+}
+#coded {
+    font-weight:lighter;
+    color:black;
+    font-size: 20px;
+    font-size: 10px;
+    text-align: right;
+    padding-left: 105px;
+    font-style:oblique;
+    
+}
+#coded:hover {
+    color:#DA64B0;
+ }
+ form {
+    margin-left: 950px
+}
+#navbarSupportedContent {
+    padding-left: 20px;
+}
+a.nav-link {
+    color:black;
+}
+#navbarfixed {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+padding-bottom: 30px;
+}
