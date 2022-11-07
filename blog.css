@@ -19,8 +19,9 @@ img {
     display: block;
     margin: 0 auto;
     width: 1400px;
-    border-radius: 3px;
-    padding-bottom: 50px;
+    border-radius: 5px;
+    padding-bottom: 130px;
+    padding-top: 150px;
 }
 h4 {
     margin-left: 50px;
@@ -30,9 +31,12 @@ p {
 }
 #resources {
     margin-left: 50px;
+    text-decoration: none;
+    color: black;
 }
 .reasons {
     margin-left: 50px;
+    padding-bottom: 30px;
 }
 #navbarSupportedContent {
     padding-left: 20px;
