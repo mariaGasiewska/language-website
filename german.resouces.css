@@ -20,7 +20,7 @@
     }
     #appsGerman {
         text-align: left;
-        padding-top: 280px;
+        padding-top: 325px;
         font-size: 2rem;
 }
 
@@ -80,3 +80,32 @@ padding-bottom: 30px;
     margin-left: 5px;
     background-color: #F8F9FA;
   } 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 7px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: antiquewhite;
+opacity: 0.40;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+#booksGerman {
+    text-align: left;
+    padding-top: 210px;
+    font-size: 2rem;
+}
+.books {
+        padding-top: 50px;
+        padding-bottom: 20px;
+}
+#youtubelink3 {
+    padding-top: 50px;
+}

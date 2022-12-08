@@ -80,3 +80,19 @@ padding-bottom: 30px;
     margin-left: 5px;
     background-color: #F8F9FA;
   } 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 7px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: antiquewhite;
+opacity: 0.40;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
