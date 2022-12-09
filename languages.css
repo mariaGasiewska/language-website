@@ -83,7 +83,7 @@ padding-bottom: 30px;
     text-decoration: none;
     display: block;
   }
-  .dropdown-content a:hover {background-color: #DA64B0;;
+  .dropdown-content a:hover {background-color: darksalmon;
     opacity: 0.40;}
 
 .dropdown:hover .dropdown-content {
