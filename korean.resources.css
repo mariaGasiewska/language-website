@@ -104,8 +104,8 @@ padding-bottom: 30px;
     text-decoration: none;
     display: block;
   }
-  .dropdown-content a:hover {background-color: antiquewhite;
-opacity: 0.40;}
+  .dropdown-content a:hover {background-color: #DA64B0;;
+    opacity: 0.40;}
 
 .dropdown:hover .dropdown-content {
     display: block;

@@ -34,6 +34,11 @@ p {
     text-decoration: none;
     color: black;
 }
+#resources:hover {
+  margin-left: 50px;
+  text-decoration: none;
+  color: #DA64B0;
+}
 .reasons {
     margin-left: 50px;
     padding-bottom: 30px;
@@ -78,7 +83,7 @@ padding-bottom: 30px;
     text-decoration: none;
     display: block;
   }
-  .dropdown-content a:hover {background-color: antiquewhite;
+  .dropdown-content a:hover {background-color: #DA64B0;;
 opacity: 0.40;}
 
 .dropdown:hover .dropdown-content {
