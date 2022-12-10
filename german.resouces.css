@@ -4,6 +4,7 @@ h1 {
     padding-bottom: 70px;
     text-transform: uppercase;
     word-spacing: 30px;
+    letter-spacing: 2px;
     }
 #navbarSupportedContent {
     padding-left: 20px;
@@ -79,4 +80,12 @@ a:visited {
 }
 #coded:hover {
   color:#DA64B0;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 1400px;
+  border-radius: 10px;
+  padding-bottom: 100px;
+  padding-top: 150px;
 }
