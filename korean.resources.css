@@ -82,3 +82,11 @@ a:visited {
 #coded:hover {
   color:#DA64B0;
 }
+img {
+  display: block;
+  margin: 0 auto;
+  width: 1400px;
+  border-radius: 10px;
+  padding-bottom: 100px;
+  padding-top: 150px;
+}
