@@ -74,17 +74,15 @@ h5 {
     color:#DA64B0;
  }
 
-img {
+ img {
     display: block;
-    margin:0 auto;
-    margin-top: 50px;
-    margin-bottom: 70px;
-    width: 1400px;
-    border-radius: 3px;
-}
-form {
-    margin-left: 950px
-}
+    margin: 0 auto;
+    width: 170vh;
+    border-radius: 10px;
+    padding-bottom: 7%;
+    padding-top: 10%;
+    overflow: hidden;
+  }
 #navbarSupportedContent {
     padding-left: 20px;
     color:black;
@@ -95,7 +93,10 @@ form {
 a.nav-link {
     color:black;
 }
-
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
 
 h6 {
     padding-left: 130px;
