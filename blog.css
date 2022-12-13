@@ -14,13 +14,18 @@
 #coded:hover {
     color:#DA64B0;
  }
-img {
-    display: block;
-    margin: 0 auto;
-    width: 170vh;;
-    border-radius: 5px;
-    padding-bottom: 130px;
-    padding-top: 150px;
+ img {
+  display: block;
+  margin: 0 auto;
+  width: 170vh;
+  border-radius: 10px;
+  padding-bottom: 7%;
+  padding-top: 10%;
+  overflow: hidden;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 h4 {
     margin-left: 50px;
