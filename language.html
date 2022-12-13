@@ -9,43 +9,33 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarfixed"> 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html" target="_blank">About<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/MaariaCaroline" target="_blank">Github</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html" target="_blank">Blog</a>
-            </li>
-            <div class="topnav" id="myTopnav">
-              <div class="dropdown">
-                 <a href="language.html" target="_blank"><button class="dropbtn">Language resources
-                  <i class="fa fa-caret-down"></i>
-                </button></a>
-                <div class="dropdown-content">
-                  <a href="english.resources.html" target="_blank">English</a>
-                </br>
-                  <a href="german.resources.html" target="_blank">German</a>
-                </br>
-                  <a href="korean.resources.html" target="_blank">Korean</a>
-                  <br>
-              <a href="japanese.resources.html" target="_blank">Japanese</a>
-                </div>
-              </div>
-            </div>
-            <li class="nav-item">
-            </li>
-          </ul>
+  <nav class="navbar" id="navbarfixed">
+    <div class="brand-title">Maria.Languages</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="index.html" class="home">Home</a></li>
+        <li><a href="blog.html" class="blog">Blog</a></li>
+        <div class="dropdown">
+          <a href="#" target="_blank" class="dropbtn">Language resources
+            <i class="fa fa-caret-down"></i></a>
+          <div class="dropdown-content">
+            <a href="english.resources.html" target="_blank">English</a>
+          </br>
+            <a href="german.resources.html" target="_blank">German</a>
+          </br>
+            <a href="korean.resources.html" target="_blank">Korean</a>
+            <br>
+            <a href="japanese.resources.html" target="_blank">Japanese</a>
+          </div>
         </div>
-      </nav>
+      </ul>
+    </div>
+  </nav>
     <h1>Recommended Language Resources</h1>
     <div class="container">
         <div class="row">
@@ -68,8 +58,16 @@
 </div>
 </div>
 <hr />
-</body>
 <a href="https://github.com/MaariaCaroline" target="_blank" id="coded"><strong>Coded by Maria Gasiewska</strong>
   <a href="https://www.instagram.com/maria.languages" target="_blank" id="coded"><strong>Follow me on Instagram</strong></a>
 </a>
+<script>
+  const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+navbarLinks.classList.toggle('active')
+})
+   </script> 
+</body>
 </html>

@@ -16,3 +16,10 @@ let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oc
 let month = months[now.getMonth()];
 
 h6.innerHTML = `${day} ${month} ${date}, ${hour}:${minutes} ${year}`;
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+navbarLinks.classList.toggle('active')
+})
