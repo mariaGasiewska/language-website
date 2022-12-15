@@ -23,13 +23,13 @@ h1 {
     margin: 0 auto;
     box-shadow: 10px 5px 5px rgba(78, 69, 69, 0.232);
 }
-#englishResources {
+.langresources {
     text-decoration: none;
-    color:gray;
+    color:rgb(174, 163, 163) 
 }
-#germanResources {
-    text-decoration: none;
-    color:gray;
+.langresources:hover {
+  text-decoration: none;
+  color:rgb(174, 163, 163) 
 }
 #coded {
     font-weight:lighter;
